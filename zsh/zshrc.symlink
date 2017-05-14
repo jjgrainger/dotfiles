@@ -1,0 +1,23 @@
+# If you come from bash you might have to change your $PATH.
+# export PATH=$HOME/bin:/usr/local/bin:$PATH
+
+# add dotfiles bin to path
+export PATH=$HOME/dotfiles/bin:$PATH
+
+# Path to your oh-my-zsh installation.
+export ZSH=$HOME/.oh-my-zsh
+
+# Set name of the theme to load.
+ZSH_THEME=""
+
+# Set plugins to load
+plugins=(git)
+
+# include oh-my-zsh
+source $ZSH/oh-my-zsh.sh
+
+# set zsh prompt theme
+source $HOME/dotfiles/zsh/prompt.zsh
+
+# set custom aliases
+source $HOME/dotfiles/zsh/aliases.zsh

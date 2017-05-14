@@ -1,0 +1,35 @@
+[include]
+    path = ~/.gitconfig.local
+[core]
+    excludesfile = ~/.gitignore
+[alias]
+    co = checkout
+    cb = checkout -b
+    m = merge --no-ff
+    s = status
+    pu = push -u
+    pf = push -f
+    aa = add --all
+    ra = remote add
+    cm = commit -m
+    ca = commit --amend
+    discard = checkout --
+    lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+[push]
+    default = matching
+[color]
+    ui = auto
+[color "branch"]
+    current = yellow bold
+    local = green bold
+    remote = cyan bold
+[color "diff"]
+    meta = yellow bold
+    frag = magenta bold
+    old = red bold
+    new = green bold
+    whitespace = red reverse
+[color "status"]
+    added = green bold
+    changed = red bold
+    untracked = yellow bold

@@ -1,0 +1,28 @@
+# Configure where our applications go
+cask_args appdir: '/Applications'
+
+# install scripts we want
+brew 'wget'
+brew 'git'
+brew 'hub'
+brew 'heroku-toolbelt'
+brew 'node'
+brew 'zsh'
+brew 'zsh-completions'
+
+# install the apps we want
+cask 'sublime-text'
+cask 'google-chrome'
+cask 'firefox'
+cask 'iterm2'
+cask 'alfred'
+cask 'dropbox'
+cask 'spotify'
+cask 'evernote'
+cask 'flux'
+cask 'caffeine'
+cask 'slack'
+cask 'sequel-pro'
+cask 'virtualbox'
+cask 'vagrant'
+cask 'transmission'
