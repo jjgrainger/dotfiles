@@ -9,6 +9,8 @@ brew 'heroku-toolbelt'
 brew 'node'
 brew 'zsh'
 brew 'zsh-completions'
+brew 'rbenv'
+brew 'ruby-build'
 
 # install the apps we want
 cask 'sublime-text'
