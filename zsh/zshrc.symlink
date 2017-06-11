@@ -21,3 +21,7 @@ source $HOME/dotfiles/zsh/prompt.zsh
 
 # set custom aliases
 source $HOME/dotfiles/zsh/aliases.zsh
+
+# add rbenv to path
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
