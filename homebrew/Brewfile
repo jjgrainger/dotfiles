@@ -11,6 +11,7 @@ brew 'zsh'
 brew 'zsh-completions'
 brew 'rbenv'
 brew 'ruby-build'
+brew 'ansible'
 
 # install the apps we want
 cask 'sublime-text'
