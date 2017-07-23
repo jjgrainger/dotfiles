@@ -5,3 +5,5 @@ grunt-init
 bower
 yarn
 surge
+generator-hubot
+generator-hubot-script
