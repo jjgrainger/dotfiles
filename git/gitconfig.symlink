@@ -14,9 +14,12 @@
     cm = commit -m
     ca = commit --amend
     discard = checkout --
+    undo = reset HEAD~
     lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 [push]
     default = matching
+[pull]
+    rebase = true
 [color]
     ui = auto
 [color "branch"]
@@ -33,3 +36,4 @@
     added = green bold
     changed = red bold
     untracked = yellow bold
+
