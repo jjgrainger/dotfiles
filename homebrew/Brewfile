@@ -1,6 +1,10 @@
 # Configure where our applications go
 cask_args appdir: '/Applications'
 
+# tap php
+tap 'homebrew/homebrew-php'
+brew 'php71'
+
 # install scripts we want
 brew 'wget'
 brew 'git'
