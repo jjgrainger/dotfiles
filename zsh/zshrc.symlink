@@ -28,3 +28,6 @@ eval "$(rbenv init -)"
 
 # add php to path
 PATH="$(brew --prefix php71)/bin:$PATH"
+
+# added by travis gem
+[ -f /Users/user/.travis/travis.sh ] && source /Users/user/.travis/travis.sh
