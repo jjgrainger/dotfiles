@@ -11,10 +11,12 @@
 		"DocBlockr",
 		"DotENV",
 		"Emmet",
+		"Laravel Blade Highlighter",
 		"Markdown Preview",
 		"Material Theme",
 		"Package Control",
 		"PHP-Twig",
-		"Sass"
+		"Sass",
+		"Vue Syntax Highlight"
 	]
 }
