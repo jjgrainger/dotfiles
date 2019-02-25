@@ -1,3 +1,7 @@
+# install oh my zsh
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+# setup zsh symlink
 for src in $(find ~/dotfiles/zsh -name '*.symlink' -type f); do
 
 	# the filename

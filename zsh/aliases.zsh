@@ -1,2 +1,1 @@
 alias c=clear
-
