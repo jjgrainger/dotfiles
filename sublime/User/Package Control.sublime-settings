@@ -7,16 +7,23 @@
 	[
 		"A File Icon",
 		"AdvancedNewFile",
+		"Babel",
+		"Behat",
 		"Better CoffeeScript",
 		"DocBlockr",
 		"DotENV",
+		"EditorConfig",
 		"Emmet",
+		"HTML-CSS-JS Prettify",
 		"Laravel Blade Highlighter",
-		"Markdown Preview",
+		"MarkdownPreview",
 		"Material Theme",
+		"Mustache",
 		"Package Control",
 		"PHP-Twig",
 		"Sass",
+		"SublimeLinter",
+		"SublimeLinter-phpcs",
 		"Vue Syntax Highlight"
 	]
 }

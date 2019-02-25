@@ -1,0 +1,15 @@
+// SublimeLinter Settings - User
+{
+    "debug": true,
+    "lint_mode": "manual",
+    "linters": {
+        "phpcs": {
+            "disable": false,
+            "args": ["--standard=WordPress"],
+            "excludes": [
+                "*.html"
+            ],
+            "executable": "/Users/jjgrainger/.composer/vendor/bin/phpcs",
+        }
+    }
+}
