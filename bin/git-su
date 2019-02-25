@@ -1,0 +1,46 @@
+#!/bin/bash
+
+function display_user() {
+    # show current user user
+    NAME=$(git config --get user.name)
+    EMAIL=$(git config --get user.email)
+
+    echo "$NAME <$EMAIL>"
+}
+
+function list_users() {
+    for profile in $(find $HOME/dotfiles/git/users -type f); do
+        echo $(basename "${profile%.*}")
+    done
+}
+
+function help() {
+    echo "help"
+}
+
+function switch_user() {
+    if [ -f $HOME/dotfiles/git/users/$1.sh ]
+        then
+            /bin/bash $HOME/dotfiles/git/users/$1.sh
+            echo "Set new user in local .git/config"
+            display_user
+    else
+        echo "No user for \"$1\""
+    fi
+}
+
+case $1 in
+    list|l)
+        list_users
+        ;;
+    show|s)
+        display_user
+        ;;
+    help)
+        help
+        ;;
+    *)
+        switch_user $1
+        ;;
+esac
+
