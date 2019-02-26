@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "Hi Alison,\n\nI have paid the invoice PCI00[1870] in full (£[TOTAL]), on the {date:long}, via BACS with the invoice ID as the reference.\n\nThanks,\n\nJoe",
+    "uid" : "CDA4A888-75EE-4170-8522-46E7EAD11814",
+    "name" : "Paid Invoice",
+    "keyword" : "invoice"
+  }
+}
