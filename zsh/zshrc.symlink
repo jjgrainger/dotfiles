@@ -20,7 +20,7 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 # set zsh prompt theme
-source $HOME/dotfiles/zsh/prompt.zsh
+# source $HOME/dotfiles/zsh/prompt.zsh
 
 # set custom aliases
 source $HOME/dotfiles/zsh/aliases.zsh
@@ -30,8 +30,8 @@ export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
 # add php to path
-PATH="$(brew --prefix php71)/bin:$PATH"
-
+PATH="/usr/local/Cellar/php@7.1/7.1.26/bin:$PATH"
+4
 # added by travis gem
 [ -f /Users/user/.travis/travis.sh ] && source /Users/user/.travis/travis.sh
 
@@ -44,3 +44,9 @@ export PATH=$HOME/.composer/vendor/bin:$PATH
 # tabtab source for sls package
 # uninstall by removing these lines or running `tabtab uninstall sls`
 [[ -f /usr/local/lib/node_modules/serverless/node_modules/tabtab/.completions/sls.zsh ]] && . /usr/local/lib/node_modules/serverless/node_modules/tabtab/.completions/sls.zsh
+
+# use pure prompt
+autoload -U promptinit; promptinit
+prompt pure
+
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
