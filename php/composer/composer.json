@@ -1,0 +1,12 @@
+{
+    "require": {
+        "squizlabs/php_codesniffer": "*",
+        "10up/wpsnapshots": "dev-master"
+    },
+    "repositories": {
+        "wpsnapshots": {
+            "type": "vcs",
+            "url": "https://github.com/10up/wpsnapshots"
+        }
+    }
+}
