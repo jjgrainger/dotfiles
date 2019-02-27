@@ -1,7 +1,8 @@
 #!/bin/bash
 #
-# Install all the things with Homebrew, Casks and a Brewfile
-#
+# Homebrew:
+#   Install all the things with Homebrew, Casks and a Brewfile
+#   https://brew.sh/
 
 # If Homebrew is not installed
 if ! which brew > /dev/null; then
