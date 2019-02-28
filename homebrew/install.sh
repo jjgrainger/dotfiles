@@ -14,4 +14,4 @@ fi;
 brew update
 
 # Install everything in Brewfile
-brew bundle
+brew bundle --file="~/dotfiles/homebrew/Brewfile"
