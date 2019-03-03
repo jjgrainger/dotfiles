@@ -16,11 +16,10 @@
     discard = checkout --
     undo = reset HEAD~
     lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+    l = log --oneline --color
     deploy = !git-ftp push
 [push]
     default = matching
-[pull]
-    rebase = true
 [color]
     ui = auto
 [color "branch"]
@@ -35,6 +34,5 @@
     whitespace = red reverse
 [color "status"]
     added = green bold
-    changed = red bold
-    untracked = yellow bold
-
+    changed = yellow bold
+    untracked = blue
