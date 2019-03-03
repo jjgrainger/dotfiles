@@ -29,3 +29,5 @@ for src in $(find ~/dotfiles/zsh -name '*.symlink' -type f); do
 	# Create symlink for .zshrc
 	ln -s "$src" "$dst"
 done;
+
+source ~/.zshrc

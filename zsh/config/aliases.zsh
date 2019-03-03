@@ -3,5 +3,5 @@
 # Aliases:
 #   Custom aliases
 
-alias c=clear
-
+alias c="clear"
+alias l="ls -alG"
