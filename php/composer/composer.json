@@ -1,12 +1,21 @@
 {
     "require": {
         "squizlabs/php_codesniffer": "*",
-        "10up/wpsnapshots": "dev-master"
+        "10up/wpsnapshots": "^2.1"
     },
     "repositories": {
         "wpsnapshots": {
             "type": "vcs",
             "url": "https://github.com/10up/wpsnapshots"
+        }
+    },
+    "require-dev": {
+        "automattic/vipwpcs": "^2.0",
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.7.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": false
         }
     }
 }
