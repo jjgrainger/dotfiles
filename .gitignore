@@ -1,5 +1,1 @@
-git/gitconfig.local.symlink
-git/users/*
-!git/users/example.sh
-sublime/User/*
-!sublime/User/*.sublime-settings
+.DS_Store

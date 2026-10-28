@@ -2,6 +2,7 @@
     path = ~/.gitconfig.local
 [core]
     excludesfile = ~/.gitignore
+	editor = vim
 [alias]
     co = checkout
     cb = checkout -b
