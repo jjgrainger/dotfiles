@@ -7,8 +7,8 @@
 # The number of lines the shell will keep within one session
 HISTSIZE=100000
 
-# Should be no more than $HITSIZE
+# Should be no more than $HISTSIZE
 SAVEHIST=$HISTSIZE
 
-# The name of the file you want to use, most commom ~/.history
+# The name of the file you want to use, most common ~/.history
 HISTFILE=$HOME/.zsh_history

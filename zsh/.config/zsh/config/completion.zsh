@@ -1,7 +1,10 @@
 #!/bin/zsh
 #
-# Completition:
-#   Completiton settings that works with other plugins
+# Completion:
+#   Completion settings that work with other plugins
+
+# Docker CLI completions
+fpath=($HOME/.docker/completions $fpath)
 
 # Enable autocompletion
 autoload -U compinit && compinit
